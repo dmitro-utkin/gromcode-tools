@@ -16,6 +16,7 @@ export const mult = (a, b) => {
 //   console.log('implementation for calc');
 //   // ... implementation
 // };
+
 export default expression => {
   console.log('implementation for calc');
   // ... implementation
