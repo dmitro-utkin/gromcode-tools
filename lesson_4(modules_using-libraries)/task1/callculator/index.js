@@ -12,15 +12,15 @@ export const mult = (a, b) => {
 
 // экспортируйте calc как export по умолчанию
 
-const calc = expression => {
-  console.log('implementation for calc');
-  // ... implementation
-};
-
-// export default calcExpression => {
+// const calc = expression => {
 //   console.log('implementation for calc');
 //   // ... implementation
 // };
 
-export default calc; // дефолтний експорт за замовчуванням можна
+export default calcExpression => {
+  console.log('implementation for calc');
+  // ... implementation
+};
+
+// export default calc; // дефолтний експорт за замовчуванням можна
 // зробити тільки один
