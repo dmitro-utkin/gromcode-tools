@@ -3,7 +3,7 @@
 // импортируйте ф-цию fetchUser из profile/gateway.js под таким же именем
 // импортируйте ф-цию printProfile из profile/index.js под таким же именем
 
-// import calcResult, { sum as calcSum, mult }  from './callculator/index.js';
+// import calcResult, { sum as calcSum, mult }  from './calculator/index.js';
 import calcExpression, { sum, mult }  from './calculator/index.js';
 import fetchUser from './profile/gateway.js'
 import { printProfile } from './profile/index.js'
