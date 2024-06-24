@@ -1,0 +1,16 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack -p",
+    "watch": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack -d --watch --devtool eval-source-maps"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
