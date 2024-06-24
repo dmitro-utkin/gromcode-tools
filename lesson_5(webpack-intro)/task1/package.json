@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:scripts": "webpack --mode production",
-    "watch:scripts": "webpack serve --mode development --watch"
+    "build:scripts": "webpack --mode=production",
+    "watch:scripts": "webpack serve --mode development --watch --devtool eval-source-map"
   },
   "author": "",
   "license": "ISC",
